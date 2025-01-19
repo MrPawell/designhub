@@ -1,0 +1,444 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    max-width: 100vw; /* Zapewni, że kontener nie przekroczy szerokości ekranu */
+    overflow-x: hidden; /* Ukryje ewentualny poziomy pasek przewijania */
+}
+body {
+    background-color: #F1F1F1;
+}
+
+.box3 {
+    width: 550px;
+    height: 250px;             
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.box4 {
+    width: 550px;
+    height: 250px;              
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.box5 {
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.box6 {
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: #003B4B;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    bottom: 70px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+
+    
+    
+    .box1 {
+        width: 250px;
+        height: 250px;
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;      
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .text {
+        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 40px;
+        color: #003B4B;
+        position: relative;
+        top: 175px; 
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .box2 {
+        width: 250px;
+        height: 250px;
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        align-items: center;      
+        transition: all 0.3s ease-in-out;
+    }
+
+       
+    .text1 {
+        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 40px;
+        color: #0099C3;
+        position: relative;
+        top: 80px; 
+        text-align: center;
+    }
+    
+    .box8 {
+        width: 100px;
+        height: 100px;
+        background-color: #0099C3;
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+        position: absolute;
+        top: 109px;
+        left: 460px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .box1:hover {
+        background-color: #d6d6d6; 
+    }
+
+    .box2:hover {
+        background-color: #d6d6d6; 
+    }
+
+
+    .box3:hover {
+        background-color: #d6d6d6; 
+    }
+
+
+    .box4:hover {
+        background-color: #d6d6d6; 
+    }
+
+
+    .box5:hover {
+        background-color: #d6d6d6; 
+    }
+
+
+    .box6:hover {
+        background-color: #d6d6d6; 
+        
+    }
+
+
+    .box7:hover {
+        transform: scale(1.1);
+
+    }
+
+    .box10:hover {
+        transform: scale(1.1);
+
+    }
+
+    .gradient-box:hover {
+
+        transform: scale(1.1);
+    }
+
+    .gradient-box2:hover {
+
+        transform: scale(1.1);
+    }
+      
+    .text6:hover {
+
+        transform: scale(1.1);
+    }
+
+    .text7:hover {
+
+        transform: scale(1.1);
+    }
+
+
+
+      
+      #message {
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.608);
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+      }
+
+      .gradient-box {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(to right, #E60B09, #E9D022  );
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+        position: relative;
+        bottom: 107px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease-in-out;
+      }
+      
+
+    #message.show {
+    opacity: 1;
+    }
+
+
+    .text2 {
+        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 60px;
+        color: #E9D022;
+        position: relative;
+        top: 80px; 
+        text-align: center;
+        position: relative;
+        left: 100px;
+        top: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+
+    .text3 {
+        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 60px;
+        color: #E60B09;
+        position:  relative;
+        left: 100px;
+        top: 130px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+
+
+
+
+
+    .text4 {
+        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 60px;
+        color: #E0A9BB;
+        position: relative;
+        top: 80px; 
+        text-align: center;
+        position: relative;
+        left: 100px;
+        top: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+
+    .text5 {
+        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 60px;
+        color: #8338E3;
+        position:  relative;
+        left: 100px;
+        top: 130px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+
+
+    }
+
+
+    .gradient-box2 {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(to right, #8338E3, #E0A9BB  );
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+        position: relative;
+        bottom: 107px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease-in-out;
+      }
+
+
+      .text6 {
+    font-weight: bold;
+    font-family: 'league Spartan', sans-serif;
+    font-size: 60px;
+    color: #160060;
+    position: relative;
+    top: 60px;
+    transition: all 0.3s ease-in-out;
+      }
+
+      .text7 {
+        font-weight: bold;
+        font-family: 'Satisfy', sans-serif;
+        font-size: 100px;
+        color: #006682;
+        position: relative;
+        top: 60px;
+        transition: all 0.3s ease-in-out;
+        
+          }
+
+          .text8 {
+            font-weight: bold;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 40px;
+            color: #0099C3;
+            position: relative;
+            top: 175px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+          }
+
+          .box10 {
+            width: 100px;
+            height: 100px;
+            background-color: #0099C3;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            position: relative;
+            bottom: 70px;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease-in-out;
+        }
+
+        #message1.show {
+            opacity: 1;
+            }
+
+        #message2.show {
+            opacity: 1;
+            }
+
+        #message3.show {
+            opacity: 1;
+            }
+
+
+            #message1 {
+                font-size: 20px;
+                margin-top: 20px;
+                color: rgba(255, 255, 255, 0.608);
+                font-weight: bold;
+                position: relative;
+                top: 20px; 
+                opacity: 0;
+                transition: opacity 1s ease-out;
+              }
+
+
+              #message3 {
+                font-size: 50px;
+                margin-top: 20px;
+                color: rgba(255, 255, 255, 0.608);
+                font-weight: bold;
+                position: relative;
+                top: 40px; 
+                opacity: 0;
+                transition: opacity 1s ease-out;
+              }
+
+
+              #message2 {
+                font-size: 50px;
+                margin-top: 20px;
+                color: rgba(255, 255, 255, 0.608);
+                font-weight: bold;
+                position: relative;
+                top: 40px; 
+                opacity: 0;
+                transition: opacity 1s ease-out;
+              }
+
+
+
+
+              .text:hover {
+
+                transform: scale(1.1);
+
+
+              }
+              
+              .text8:hover {
+
+                transform: scale(1.1);
+            }
+
+              .text4:hover {
+                transform: scale(1.1);
+              }
+
+
+              .text5:hover {
+                transform: scale(1.1);
+              }
+
+
+
+              .text3:hover {
+                transform: scale(1.1);
+              }
+
+
+              .text2:hover {
+                transform: scale(1.1);
+              }
+
